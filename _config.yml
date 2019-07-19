@@ -16,7 +16,8 @@
 title: Koko
 email: koko@example.com
 description: I am lazy!
-baseurl: "" # the subpath of your site, e.g. /blog
+destination: docs
+baseurl: "/AwesomESTwebsiteEVER" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: KaloyanIvanov89
 github_username: KaloyanIvanov89
@@ -38,3 +39,8 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+  - docs
+  - _assets
+  - gulpfile.js
+  - package.json
+  - package-lock.json
