@@ -1,7 +1,7 @@
 {
   "name": "Kaizen",
   "version": "1.0.0",
-  "description": "Jekyll theme by the best HTML & CSS Course",
+  "description": "The best sushi in town!",
   "main": "gulpfile.js",
   "directories": {
     "doc": "docs"
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+git@github.com:kaloyanivanov89/Kaizen.git"
+    "url": "git+git@github.com:KaloyanIvanov89/Kaizen.git"
   },
   "author": "",
   "license": "ISC",
