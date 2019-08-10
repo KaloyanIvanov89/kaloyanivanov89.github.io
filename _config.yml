@@ -17,7 +17,7 @@ title: Kaizen Sushi
 email: office@kaizen.com
 description: I am lazy!
 destination: docs
-baseurl: "/Kaizen" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: KaloyanIvanov89
 github_username: KaloyanIvanov89
