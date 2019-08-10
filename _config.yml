@@ -15,9 +15,9 @@
 # in the templates via {{ site.myvariable }}.
 title: Kaizen Sushi
 email: office@kaizen.com
-description: I am lazy!
+description: The best sushi in town!
 destination: docs
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/Kaizen" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: KaloyanIvanov89
 github_username: KaloyanIvanov89
