@@ -16,9 +16,9 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://kaloyanivanov89.github.io/"
+    "url": ""
   },
-  "homepage": "https://kaloyanivanov89.github.io/",
+  "homepage": "",
   "devDependencies": {
     "browser-sync": "^2.26.3",
     "child_process": "^1.0.2",
