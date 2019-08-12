@@ -1,0 +1,29 @@
+html{
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+header{
+    font-family: Georgia, serif;
+    font-size: 1em;
+    line-height: 1.2;
+    text-align: center;
+}
+
+header h1 {
+    text-align: start;
+}
+
+li {
+    display: inline-block;
+}
+
+nav{
+    display: inline-block;
+}
+
+a {
+    color:green;
+    text-decoration: none;
+}
