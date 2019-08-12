@@ -1,10 +1,10 @@
-html{
+html {
     font-family: Helvetica, sans-serif;
     font-size: 16px;
     line-height: 1.2;
 }
 
-header{
+.site-header {
     font-family: Georgia, serif;
     font-size: 1em;
     line-height: 1.2;
@@ -19,11 +19,13 @@ li {
     display: inline-block;
 }
 
-nav{
+nav {
     display: inline-block;
 }
 
-a {
+nav>ul>li>a {
     color:green;
     text-decoration: none;
+    padding: 10px;
+    font-size: 25px;
 }

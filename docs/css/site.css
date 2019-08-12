@@ -1,2 +1,33 @@
-@import url("gallery.css");
-@import url("navigation.css");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+#imgs {
+  display: block; }
+
+html {
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.2; }
+
+.site-header {
+  font-family: Georgia, serif;
+  font-size: 1em;
+  line-height: 1.2;
+  text-align: center; }
+
+header h1 {
+  text-align: start; }
+
+li {
+  display: inline-block; }
+
+nav {
+  display: inline-block; }
+
+nav > ul > li > a {
+  color: green;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 25px; }
