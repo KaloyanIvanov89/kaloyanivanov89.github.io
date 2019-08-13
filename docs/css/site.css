@@ -17,7 +17,8 @@ html {
 .site-header {
   font-size: 1em;
   line-height: 1.2;
-  text-align: center; }
+  text-align: center;
+  border-bottom: 2px solid #d124e0; }
 
 .socialMedia {
   text-align: center; }
