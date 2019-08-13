@@ -9,7 +9,38 @@ html {
   font-size: 1em;
   line-height: 1.2;
   text-align: center;
-  border-bottom: 2px solid #B81F26; }
+  border-bottom: 2px solid #B81F26;
+  padding-bottom: 0.5rem; }
+
+.animatedPic {
+  margin-top: 25px;
+  font-size: 21px;
+  text-align: center;
+  -webkit-animation: fadein 5s;
+  /* Safari, Chrome and Opera > 12.1 */
+  /* Firefox < 16 */
+  /* Internet Explorer */
+  /* Opera < 12.1 */
+  animation: fadein 5s; }
+
+@keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+/* Firefox < 16 */
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+/* Internet Explorer */
+
+/* Opera < 12.1 */
 
 .socialMedia {
   text-align: center; }
@@ -20,9 +51,12 @@ li {
 nav {
   display: inline-block; }
 
+h2 {
+  padding-top: 1rem; }
+
 nav > ul > li > a {
   color: green;
   text-decoration: none;
-  padding: 10px;
+  padding: 2rem;
   font-size: 25px;
   font-family: 'Julius Sans One', sans-serif; }
