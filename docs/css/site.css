@@ -81,4 +81,20 @@ form {
 .site-footer {
   font-family: 'Gilda Display', serif;
   font-size: 25px;
+  font-weight: bold;
   background: #287a7a; }
+
+.socialMedia > a > i {
+  color: #fff;
+  padding: 0.5rem;
+  padding-top: 0.5rem;
+  font-size: 30px;
+  transition: 0.2s; }
+
+.fab.fa-facebook-f:hover {
+  color: #4133ff;
+  font-size: 30px; }
+
+.fab.fa-instagram:hover {
+  color: #ff33ee;
+  font-size: 30px; }
