@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css?family=Julius+Sans+One&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Fauna+One&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Gilda+Display&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -7,21 +10,17 @@
   display: block; }
 
 html {
-  font-family: Helvetica, sans-serif;
-  font-size: 16px;
+  font-family: 'Fauna One', serif;
+  font-size: 20px;
   line-height: 1.2; }
 
 .site-header {
-  font-family: Georgia, serif;
   font-size: 1em;
   line-height: 1.2;
   text-align: center; }
 
 .socialMedia {
   text-align: center; }
-
-header h1 {
-  text-align: start; }
 
 li {
   display: inline-block; }
@@ -33,10 +32,12 @@ nav > ul > li > a {
   color: green;
   text-decoration: none;
   padding: 10px;
-  font-size: 25px; }
+  font-size: 25px;
+  font-family: 'Julius Sans One', sans-serif; }
 
 p, h2 {
-  text-align: center; }
+  text-align: center;
+  padding-bottom: 0.5rem; }
 
 section.title {
   display: flex;
@@ -63,14 +64,21 @@ form {
     font-size: 1rem;
     padding-left: 0.5em; }
   form input {
-    margin-bottom: 1em; }
+    margin-bottom: 1em;
+    border-radius: 10px; }
   form textarea {
     height: auto;
     padding-top: 0.5em;
-    margin-bottom: 1.5em; }
+    margin-bottom: 1.5em;
+    border-radius: 10px; }
   form div {
     display: flex;
     justify-content: center;
     width: 100%; }
     form div input {
       width: 35%; }
+
+.site-footer {
+  font-family: 'Gilda Display', serif;
+  font-size: 25px;
+  background: #287a7a; }

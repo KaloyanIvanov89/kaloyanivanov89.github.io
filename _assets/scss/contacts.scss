@@ -1,5 +1,6 @@
 p, h2 {
     text-align: center;
+    padding-bottom: 0.5rem;
 }
 
 section {
@@ -33,11 +34,15 @@ section {
     }
     input {
       margin-bottom: 1em;
+      border-radius: 10px;
     }
     textarea {
       height: auto;
       padding-top: 0.5em;
       margin-bottom: 1.5em;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      border-radius: 10px;
     }
     div {
       display: flex;

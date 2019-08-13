@@ -1,5 +1,6 @@
 p, h2 {
-  text-align: center; }
+  text-align: center;
+  padding-bottom: 0.5rem; }
 
 section.title {
   display: flex;
@@ -26,11 +27,13 @@ form {
     font-size: 1rem;
     padding-left: 0.5em; }
   form input {
-    margin-bottom: 1em; }
+    margin-bottom: 1em;
+    border-radius: 10px; }
   form textarea {
     height: auto;
     padding-top: 0.5em;
-    margin-bottom: 1.5em; }
+    margin-bottom: 1.5em;
+    border-radius: 10px; }
   form div {
     display: flex;
     justify-content: center;
