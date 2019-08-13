@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-Work in progress...
-=======
-Work in progress...
-https://kaloyanivanov89.github.io/Kaizen/
->>>>>>> 3f1976efb99080523d0cda4ace05eeed4f517e96
+
+Work in progress... https://kaloyanivanov89.github.io/Kaizen/
+
