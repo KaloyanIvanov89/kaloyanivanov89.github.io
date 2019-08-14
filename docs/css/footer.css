@@ -5,6 +5,9 @@
   font-weight: bold;
   background: #287a7a; }
 
+.socialMedia {
+  text-align: center; }
+
 .socialMedia > a > i {
   color: #fff;
   padding: 0.5rem;

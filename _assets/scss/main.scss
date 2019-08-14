@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Fauna+One&display=swap');
+
+html {
+    font-family: 'Fauna One', serif;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+h2 {
+    padding-top: 1rem;
+}
+
+.animatedPic {
+    margin-top: 25px;
+    font-size: 21px;
+    text-align: center;
+
+    -webkit-animation: fadein 5s; /* For old versions of Safari, Chrome and Opera */
+    -moz-animation: fadein 5s; /* For old versions of Firefox */
+    -ms-animation: fadein 5s; /* For Internet Explorer */
+    -o-animation: fadein 5s; /* For old versions of Opera */
+    animation: fadein 5s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* For old versions of Firefox */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* For old versions of Safari, Chrome and Opera */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* For Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* For old versions of Opera */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
