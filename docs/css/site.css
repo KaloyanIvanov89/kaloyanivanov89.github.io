@@ -55,7 +55,7 @@ h2 {
 
 /* For old versions of Opera */
 
-.site-header {
+.site-header-main {
   font-size: 1em;
   line-height: 1.2;
   text-align: center;
@@ -245,3 +245,9 @@ form {
   text-align: left;
   margin: 2rem;
   padding-left: 10rem; }
+
+p.histPic {
+  text-align: center; }
+
+p.source {
+  text-align: right; }
