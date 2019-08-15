@@ -10,3 +10,14 @@ p.histPic {
 
 p.source {
   text-align: right; }
+
+@media screen and (max-width: 768px) {
+  p.histPic img {
+    width: 80vw;
+    height: auto;
+    padding-right: 1rem; }
+  .history p {
+    font-size: 15px;
+    padding-left: 0;
+    max-width: 12rem;
+    text-align: left; } }
