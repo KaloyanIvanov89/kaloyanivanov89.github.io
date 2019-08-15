@@ -53,3 +53,16 @@ section {
       }
     }
   }
+
+  @media screen and (max-width: 768px) {
+    section.contact-form form {
+        width: auto;
+        height: auto;
+        padding: 0.5rem;
+    }
+
+    iframe {
+      width: auto;
+      height: 40vh;
+    }
+}
