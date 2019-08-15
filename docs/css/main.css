@@ -36,3 +36,8 @@ h2 {
 /* For Internet Explorer */
 
 /* For old versions of Opera */
+
+@media screen and (max-width: 768px) {
+  div.content p img {
+    max-width: 100vw;
+    height: 45vh; } }

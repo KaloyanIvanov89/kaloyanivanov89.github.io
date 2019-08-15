@@ -55,6 +55,11 @@ h2 {
 
 /* For old versions of Opera */
 
+@media screen and (max-width: 768px) {
+  div.content p img {
+    max-width: 100vw;
+    height: 45vh; } }
+
 .site-header-main {
   font-size: 1em;
   line-height: 1.2;
