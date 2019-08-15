@@ -207,7 +207,10 @@ h1 span {
     float: none; }
   .timeline-block-left {
     float: none;
-    direction: ltr; } }
+    direction: ltr; }
+  p.theTeam img {
+    width: 80vw;
+    height: auto; } }
 
 .grid {
   display: grid;
